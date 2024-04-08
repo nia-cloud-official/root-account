@@ -78,7 +78,7 @@ app.get('/dashboard', (req, res) => {
 // Logout Route
 app.get('/logout', (req, res) => {
   req.logout();
-  res.redirect('/login');
+  res.redirect('/');
 });
 
 // Server Listening

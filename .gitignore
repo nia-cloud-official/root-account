@@ -1,9 +1,25 @@
-# Node modules
-node_modules
+# Ignore node_modules directory
+node_modules/
 
+# Ignore log files
+*.log
 
-# Log files
-logs
+# Ignore compiled files
+*.class
+*.jar
 
-# Dependency directories
-vendor
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore package-lock.json
+package-lock.json
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
